@@ -2,6 +2,8 @@
 // @name          LOR jk-navigation
 // @description   Implements jk-navigation for LOR
 // @version 0.1
+// @license GPL
+// @author kaktyc ( http://www.linux.org.ru/people/kaktyc/profile )
 // @match http://*.linux.org.ru/*
 // @match https://*.linux.org.ru/*
 // @exclude *linux.org.ru/forum/*/
@@ -14,10 +16,7 @@
 // @include *linux.org.ru/news/*/*
 // @include *linux.org.ru/gallery/*/*
 // @include *linux.org.ru/polls/*/*
-// ==/UserScript==
-//
-// License: GPL
-// Author:  kaktyc ( http://www.linux.org.ru/people/kaktyc/profile )
+// ==/UserScript== 
 
 function addJQuery(callback) {
 	var script = document.createElement("script");
